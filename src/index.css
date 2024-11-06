@@ -1,0 +1,150 @@
+.navbar{
+  background-color: #133E87;
+  color:#CBDCEB;
+  padding:20px;
+}
+.containerDiv{
+  padding:10px 40px;
+
+}
+.navbar a{
+  color:#CBDCEB;
+  text-decoration: none;
+}
+.navbar li {
+  display:inline;
+  padding:8px;
+  float:right;
+}
+.navbar ul {
+  
+  display:inline;
+}
+.navbar li:hover {
+  background-color: #111;
+  cursor:pointer;
+}
+.blogs{
+    background-color: #F3F3E0;
+    color:#133E87;
+}
+
+ul li{
+  display:inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 0 10px;
+}
+.linearAlignedList li{
+  display: inline-block;
+}
+.linearAlignedList li:hover{
+background-color: rgb(181, 189, 189);
+border-radius: 25px;
+padding:10px;
+}
+a{
+  text-decoration: none;
+}
+.heading{
+  padding:30px 0px 0px 0px;
+  margin: 0px;
+  font-family:"Dancing Script", cursive;
+  font-weight:bolder;
+  font-size: 50px;
+}
+.subHeading{
+    font-size: 20px;
+    color: #3b3333;
+    margin-top: 0px;
+    /* padding: 10px 30px; */
+}
+.cardBody{
+  text-align: center;
+  width:300px;
+  height: 310px;
+  padding:20px 0px;
+  border-radius:20%;
+  /* background-color: rgb(249, 241, 241); */
+  /* box-shadow:0px 2px 2px 2px rgb(222,220,220); */
+
+}
+.cardBody:hover{
+  background-color:#dcdcdc;
+  /* background-color:#4c3410;   or brown ? */
+  color:white;
+  border-radius:8px;
+  transform:scale(1.1);
+  cursor: pointer;
+}
+.image{
+  width:250px;
+  height:250px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+
+}
+p{
+  text-align: center;
+}
+.bookings{
+  background-color: whitesmoke;
+  width:70%;
+  margin:auto;
+  margin-top: 3rem;
+  min-height:200px;
+  border-radius: 25px;
+  color:rgb(11, 11, 53);
+}
+.booking{
+  min-height:300px;
+}
+.description{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width:210px;
+  color:black;
+  text-align:center;
+  text-decoration: none;
+  margin: 0px auto;
+  background-color: #CBDCEB;
+  padding: 10px 20px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+.cardsGallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:65px;
+}
+.bookingsHeading{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+table{
+  margin:auto;
+  border-spacing: 30px;
+  
+  tr{
+    
+    width: 5rem;
+  }
+  td{
+    padding: 10px;
+    font-size: 2rem;
+    border: 2px outset #bcc0c6;
+    border-radius: 25px;
+    width: 25%;
+    text-align: center;
+  }
+  tr:hover{
+   background-color:#16243c;
+  }
+  td,a{
+    color:rgb(11, 11, 53);
+  }
+  td:hover,a:hover{
+color:#bcc0c6;
+  }
+}
